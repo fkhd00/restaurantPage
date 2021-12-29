@@ -1,0 +1,22 @@
+[
+    {
+        "nameOfDish":"Biryani",
+        "type":"Main course",
+        "price":200
+    },
+    {
+        "nameOfDish":"Butter Paneer",
+        "type":"main course",
+        "price":100
+    },
+    {
+        "nameOfDish":"Icecream",
+        "type":"desert",
+        "price":50
+    },
+    {
+        "nameOfDish":"Masala Papad",
+        "type":"Starter",
+        "price":20
+    }
+]
