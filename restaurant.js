@@ -145,7 +145,7 @@ req.onload=function(){
     document.addEventListener("dragenter", function( event ) {
         // highlight potential drop target when the draggable element enters it
         if ( event.target.className == "tables" ) {
-            event.target.style.background = "purple";
+            event.target.style.background = "rgba(8, 7, 8, 0.08)";
         }
   
     }, false);
