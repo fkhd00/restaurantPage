@@ -294,6 +294,7 @@ let creatingTableForBill=(id)=>{
     }
     
     let generateBillButton=document.getElementById("generateBill");
+    disableButton(generateBillButton,id);
     generateBillButton.addEventListener('click',()=>{
         totalCleanup(id);
         let modal = document.getElementById("myModal");
@@ -314,5 +315,14 @@ let cleanUpForBill=()=>{
         while(tableToClean.firstChild){
             tableToClean.removeChild(tableToClean.lastChild);
         }
+}
+
+let disableButton=(button,id)=>{
+    if(totalForTable[id]==0){
+        button.disabled=true;
+    }
+    else{
+        button.disabled=false;
+    }
 }
 
